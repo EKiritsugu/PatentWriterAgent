@@ -24,7 +24,7 @@
 - 路径：`.claude/agents/*.md`
 - 价值：
   - 已拆分为 8 个高内聚写作角色
-  - 可直接映射为 Copilot 分阶段提示词
+  - 可直接映射为 Copilot 分阶段提示词（作为“知识来源”而非运行时依赖）
 
 ## 推荐使用方式
 1. 先加载 `.github/copilot-instructions.md` 作为全局规则。  
