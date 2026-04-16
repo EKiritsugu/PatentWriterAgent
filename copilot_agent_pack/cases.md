@@ -21,7 +21,15 @@
   - 可作为 Copilot 写作时的统一规则底座
 
 ## 4) 角色提示词资产
-- 路径：`.claude/agents/*.md`
+- 路径（共 8 个）：
+  - `.claude/agents/input-parser.md`
+  - `.claude/agents/patent-searcher.md`
+  - `.claude/agents/outline-generator.md`
+  - `.claude/agents/abstract-writer.md`
+  - `.claude/agents/claims-writer.md`
+  - `.claude/agents/description-writer.md`
+  - `.claude/agents/diagram-generator.md`
+  - `.claude/agents/markdown-merger.md`
 - 定位：仅作为 Copilot 提示词设计参考，不作为 Copilot 运行时依赖
 - 价值：
   - 已拆分为 8 个高内聚写作角色
