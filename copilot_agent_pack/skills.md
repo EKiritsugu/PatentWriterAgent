@@ -1,6 +1,11 @@
 # Copilot Agent Skills 映射
 
-本文件将 Claude 子代理能力整理为 Copilot 可复用“技能阶段”。
+本文件将历史子代理能力整理为 Copilot 可复用“技能阶段”。
+
+## Skill 0: disclosure-guide（技术交底引导）
+- 输入：初始技术想法/零散交底信息
+- 输出：多轮追问后的高质量技术交底书草稿（可支撑权利要求）
+- 参考 Prompt：`.github/prompts/technical-disclosure-guide-agent.prompt.md`
 
 ## Skill 1: input-parser（输入解析）
 - 输入：技术交底书（docx/markdown）

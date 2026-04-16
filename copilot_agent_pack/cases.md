@@ -38,6 +38,7 @@
 
 ## 推荐使用方式
 1. 先加载 `.github/copilot-instructions.md` 作为全局规则。  
-2. 使用 `.github/prompts/patent-writing-agent.prompt.md` 发起任务。  
-3. 写作过程中按 `copilot_agent_pack/skills.md` 逐阶段校验。  
-4. 用本文件中的案例路径做结构与质量对照。  
+2. 先用 `.github/prompts/technical-disclosure-guide-agent.prompt.md` 完善技术交底（信息不完整时）。  
+3. 再用 `.github/prompts/patent-writing-agent.prompt.md` 发起完整专利写作任务。  
+4. 写作过程中按 `copilot_agent_pack/skills.md` 逐阶段校验。  
+5. 用本文件中的案例路径做结构与质量对照。  
