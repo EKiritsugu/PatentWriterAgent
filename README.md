@@ -32,7 +32,7 @@ output/temp_9ba0a678-5210-42e0-8f52-31b47bf630f6 为示例输出
 - 案例索引：`copilot_agent_pack/cases.md`
 
 建议顺序：
-1. 在仓库中启用 Copilot （`/.github/copilot-instructions.md` 会被 Copilot 自动识别为仓库级指令）
+1. 在仓库中启用 Copilot （`.github/copilot-instructions.md` 会被 Copilot 自动识别为仓库级指令）
 2. 使用 `patent-writing-agent.prompt.md` 发起任务
 3. 按 `skills.md` 分阶段输出并检查
 4. 参考 `cases.md` 中案例做格式和质量对齐
