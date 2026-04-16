@@ -22,6 +22,21 @@ output/temp_9ba0a678-5210-42e0-8f52-31b47bf630f6 为示例输出
 
 ```
 
+## GitHub Copilot 使用（已整理打包）
+
+已新增一套可直接用于 Copilot 的专利撰写 Agent 资产：
+
+- 全局指令：`.github/copilot-instructions.md`
+- 可复用 Prompt：`.github/prompts/patent-writing-agent.prompt.md`
+- 技能映射：`copilot_agent_pack/skills.md`
+- 案例索引：`copilot_agent_pack/cases.md`
+
+建议顺序：
+1. 在仓库中启用 Copilot 并加载 `copilot-instructions.md`
+2. 使用 `patent-writing-agent.prompt.md` 发起任务
+3. 按 `skills.md` 分阶段输出并检查
+4. 参考 `cases.md` 中案例做格式和质量对齐
+
 ### Workflow 设计
 
 ```mermaid
